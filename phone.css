@@ -1,0 +1,363 @@
+@media  screen and (max-width:600px) {
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    
+    .main{
+        background-image: url(bg.jpeg);
+        height: 40rem;
+        width: 100%;
+        max-width: 120rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    
+        .gap{
+            width: 100%;
+            position: relative;
+            height: 12vh;
+        }
+        
+        body{
+            background-color: black;
+        }
+    
+    
+        .black{
+        
+            height: 40rem;
+            width: 100%;
+            /* background-color: black; */
+            opacity: 0.8;
+        }
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+        width: 90%;
+        position: relative;
+        background-color:inherit;
+        margin: auto;
+        padding: auto;
+    }
+    .logo{
+        height: 5rem;
+        width: auto;
+    }
+    .sign-in{
+        width: auto;
+        font-size: 0.670rem;
+        font-weight: 400;
+        border: none;
+        min-height: 2rem;
+        padding: 0.25rem 1rem;
+        border-radius: 0.25rem;
+        background: rgb(229, 9, 20);
+        color: white;
+    }
+    
+    body{
+        background-color: black;
+    }
+    .language{
+        height:1.25rem;
+        width: auto;
+        background-color: inherit;
+        border :1px white;
+        color: white;
+        border-radius: 1px;
+        margin-right: 1.5rem;
+        font-size: medium;
+        cursor: pointer;
+    }
+    .hero{
+        height: 40%;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        font-weight: bolder;
+        position: relative;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .first{
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    .second{font-weight:580;
+        font-size: 20px;
+    }
+    
+    .third{font-weight:400;
+    font-size:14px;
+    }
+    
+    .hero2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .email{
+        color: white;
+        border: 5px whitesmoke;
+        border-radius: 3px;
+        font-size: large;
+        background-color:black;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 10px;
+    }
+    
+    .getstarted{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    }
+    /* -----section------ */
+    .heading{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 34px;
+        font-weight: 600;
+        color: white;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+    
+    .faq-question{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80vw;
+        height: 4vw;
+        background-color: #2d2d2d;
+        font-size: x-large;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        padding: 35px;
+        gap: 20px;
+        cursor: pointer;
+    }
+    .faq-question span{
+        color: white;
+    
+    }
+       
+    
+    .faq{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .separation{
+        height: 5px;
+        width: 100%;
+        background-color: lightgray; 
+    }
+    
+    .container{
+        height: 700px;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 30px;
+        margin: auto;
+    }
+    .head3{
+        height: 35px;
+        width: 80%;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        margin: auto;
+        margin-top: 35px;
+    }
+    
+    .box{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 70%;
+        width: 95%;
+        padding: 20px;
+        background: rgb(33,21,37);
+        background: linear-gradient(159deg, rgba(33,21,37,1) 58%, rgba(27,31,63,1) 100%);
+        border-radius: 15px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+    }
+    
+    .box-text{
+        color:white;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    /* -------footer------------ */
+    
+    footer{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: gray;
+        margin-top: 65px;
+        padding: 10px;
+        text-decoration: underline;
+    }
+    
+    .firstrow{
+        position: relative;
+        height: 40px;
+        width: 55%;
+        gap: 0px;
+    }
+    
+    .secondrow{
+        position: relative;
+        height: 40px;
+        color: gray;
+        background-color: black;
+        width: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0px;
+    
+    }
+    
+    .thirdrow{
+        position: relative;
+        height: 40px;
+        color: gray;
+        background-color: black;
+        width: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+        .fourthrow{
+            position: relative;
+            height: 40px;
+            color: gray;
+            background-color: black;
+            width: 55%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .fifthrow{
+            position: relative;
+            height: 40px;
+            color: gray;
+            background-color: black;
+            width: 55%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+    
+      .head-container2{
+        height: 30px;
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        font-size: 30px;
+        color: white;
+        font-weight: 700;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+      }  
+    
+    .container2{
+        height: 350px;
+        width: 80%;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-between;
+        margin: auto;   
+
+    }
+        .box2{
+            width: 70px;
+            height: 140px;
+            border-radius: 10px;
+        }
+        .box2 img{
+            border-radius: 17px;
+        }
+        .box3{
+            width: 70px;
+            height: 140px;
+            border-radius: 10px;
+        }
+        .box3 img{
+            border-radius: 17px;
+        }
+    
+    
+        .box4{
+            width: 70px;
+            height: 140px;
+            border-radius: 10px;
+        }
+        .box4 img{
+            border-radius: 17px;
+        }
+    
+    
+        .box5{
+          display: none;
+        }
+       
+    
+    
+        .box6{
+          
+            display: none;
+        }
+        
+    
+        
+    
+      
+        
+    
+}
