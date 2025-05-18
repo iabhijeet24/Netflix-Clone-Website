@@ -9,19 +9,19 @@ A fully responsive Netflix clone website built using only HTML and CSS.
 ## 📸 Screenshots
 
 ### 1. Homepage
-![Homepage](Output/netflix.png)
+![Homepage](Output/netflix.PNG)
 
 ### 2. Movie Categories
-![Movie Categories](Output/netflix2.png)
+![Movie Categories](Output/netflix2.PNG)
 
 ### 3. Product Feature Page
-![Product Detail](Output/netflix3.png)
+![Product Detail](Output/netflix3.PNG)
 
 ### 4. FAQ's Page
-![FAQ's Section](Output/netflix4.png)
+![FAQ's Section](Output/netflix4.PNG)
 
 ### 5. Contact Section
-![Contact Section](Output/netflix5.png)
+![Contact Section](Output/netflix5.PNG)
 
 
 ## 🚀 Tech Stack
